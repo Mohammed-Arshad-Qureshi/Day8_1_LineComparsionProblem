@@ -22,6 +22,16 @@ namespace LineComparison
             {
                 Console.WriteLine($"The two line {line1}  and  {line2} are Equal");
             }
+            if(line1 > line2)
+            {
+                Console.WriteLine($"The  line1 : {line1}  is greater than Line2 :{line2}");
+
+            }
+            if(line1 < line2)
+            {
+                Console.WriteLine($"The  line2 : {line2}  is greater than Line1 :{line1}");
+
+            }
         }
        
     }
